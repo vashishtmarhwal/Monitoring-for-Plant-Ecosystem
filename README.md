@@ -27,6 +27,6 @@ Other environmental factors such as Light sensitivity, Temperature and Humidity 
 3. [IFTTT Webhooks](https://ifttt.com/maker_webhooks)
 
 ## Project Contributors
-This project was done during my CSE4022 - Natural Language Processing by a team of three people
+This project was done during my CSE3009 - Internet of Things by a team of two people
 - [Tanay Agarwal](https://github.com/tanayagar/)
 - [Vashisht Marhwal](https://github.com/vashishtmarhwal/)
