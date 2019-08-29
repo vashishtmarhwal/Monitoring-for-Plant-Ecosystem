@@ -25,3 +25,8 @@ Other environmental factors such as Light sensitivity, Temperature and Humidity 
 1. [Arduino UNO](https://www.arduino.cc/en/main/docs)
 2. [ThingSpeak](https://www.mathworks.com/help/thingspeak/)
 3. [IFTTT Webhooks](https://ifttt.com/maker_webhooks)
+
+## Project Contributors
+This project was done during my CSE4022 - Natural Language Processing by a team of three people
+- [Tanay Agarwal](https://github.com/tanayagar/)
+- [Vashisht Marhwal](https://github.com/vashishtmarhwal/)
