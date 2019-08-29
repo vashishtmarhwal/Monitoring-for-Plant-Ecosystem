@@ -22,6 +22,6 @@ Other environmental factors such as Light sensitivity, Temperature and Humidity 
 
 
 ### Frameworks Used
-1. Arduino UNO
-2. ThingSpeak
-3. IFTTT Webhooks
+1. ![Arduino UNO](https://www.arduino.cc/en/main/docs)
+2. ![ThingSpeak](https://www.mathworks.com/help/thingspeak/)
+3. ![IFTTT Webhooks](https://ifttt.com/maker_webhooks)
