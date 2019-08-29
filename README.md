@@ -11,3 +11,9 @@ The Water pump will automatically turn on based on certain set of conditions whe
 We have incorporated Thingspeak Cloud Service to send data to and analyse using MATLAB. 
 
 Other environmental factors such as Light sensitivity, Temperature and Humidity will also be set and respective notifications about the plant’s condition will be sent to the owner on his mobile device through cloud.
+
+**Data gathered on ThingSpeak**
+!(https://i.imgur.com/Ux25mAX.png)
+**Output on Smartwatch using IFTTT**
+!(https://i.imgur.com/iC17k84.png)
+!(https://i.imgur.com/qM1tpbQ.png)
