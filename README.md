@@ -20,7 +20,7 @@ Other environmental factors such as Light sensitivity, Temperature and Humidity 
 ![Watch Output](https://i.imgur.com/iC17k84.png)
 ![Watch Output](https://i.imgur.com/qM1tpbQ.png)
 
-*\*Tested under Artificial Conditions
+*Tested under Artificial Conditions
 
 ### Frameworks Used
 1. Arduino UNO
