@@ -1,0 +1,44 @@
+//Plant specifications
+ixoraRadius = 0.04;
+ixoraHeight = 0.06;
+ixoraVolume = pi*ixoraRadius*ixoraRadius*ixoraHeight;
+waterVolume = 0.03;
+volumetricContent = waterVolume/ixoraVolume;
+volumetricContent
+diffusivity = 0;
+flowRate = 0;
+flag=0;
+sr='0';
+//Channel properties in Thignspeak
+readChannelID = 585044;
+writeChannelID = 613980;
+writeAPIKey = 'CJWALPBGD96KIYOJ';
+[data, time] = thingSpeakRead(readChannelID);
+if data(3)<60
+    diffusivity = 10^(-9);
+else
+    diffusivity = 10^(-7);
+end
+flowRate = diffusivity*(volumetricContent/0.04);
+if data(2)==1
+    sr=strcat(sr,'1');
+end
+if data(5)<50
+    sr=strcat(sr,'2');
+end
+if data(1)<15
+    sr=strcat(sr,'3');
+end
+if data(1)>27
+    sr=strcat(sr,'4');
+end
+analyzedData = flowRate*160*60;
+if analyzedData > 2.3
+    flag=0;
+else
+    flag=5;
+end
+flag, sr
+data = str2num(sr);
+//Writing the output of the Channel to Cloud
+thingSpeakWrite(writeChannelID, [flag, data], 'WriteKey', writeAPIKey);
